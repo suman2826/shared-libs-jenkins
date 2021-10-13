@@ -38,7 +38,7 @@ def call(Closure body) {
                }
            }
          
-         
+          body()
            
            
            stage("Running Testcase") {
@@ -46,7 +46,7 @@ def call(Closure body) {
                    echo "completed"
                }
            }
-         body()
+        
            
        }
    }
