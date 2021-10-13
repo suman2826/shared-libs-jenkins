@@ -3,8 +3,9 @@ library identifier: 'shared-libs-jenkins@feature/shared-libs',
       $class: 'GitSCMSource',
       remote: 'https://github.com/suman2826/shared-libs-jenkins.git'
 ])
-jenkinsForJava {
-    stage("extra step"){
-        echo "testing extra step"
-    }
-}
+jenkinsForJava()
+// {
+//     stage("extra step"){
+//         echo "testing extra step"
+//     }
+// }
