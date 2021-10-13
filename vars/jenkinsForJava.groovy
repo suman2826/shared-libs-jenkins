@@ -1,4 +1,4 @@
-def call() {
+def call(Closure body) {
   pipeline {
     agent any
        options {
@@ -37,6 +37,8 @@ def call() {
                    echo "checking"
                }
            }
+         
+         body()
            
            
            stage("Running Testcase") {
