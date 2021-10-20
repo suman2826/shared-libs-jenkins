@@ -29,7 +29,7 @@ def call(Closure body) {
            }
           stage("Checking") {
               steps {
-                   echo "checking"
+                   echo "checkingssssssssss"
                }
            }
          
@@ -38,12 +38,12 @@ def call(Closure body) {
            
            stage("Running Testcase") {
               steps {
-                   echo "completed"
+                   echo "completedssssssssss"
                }
            }
            stage("Running Testcases") {
               steps {
-                   echo "completes"
+                   echo "completesssssssssss"
                }
            }
            stage("Running") {
