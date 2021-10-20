@@ -51,7 +51,11 @@ def call(Closure body) {
                    echo "completes"
                }
            }
-        
+         stage("Runningsss ") {
+              steps {
+                   echo "completessss"
+               }
+           }
            
        }
    }
